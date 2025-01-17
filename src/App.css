@@ -1,0 +1,234 @@
+General Styles
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f0f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.container {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+  padding: 20px; 
+}
+
+.container > div {
+  flex: 1; 
+  min-width: 300px; 
+}
+.app-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {  
+  display: flex;  
+  align-items: center;  
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);  
+  padding: 30px;  
+  border-radius: 15px;  
+  color: white;  
+  margin-bottom: 20px;  
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);  
+}  
+
+  
+.info {  
+  display: flex;  
+  flex-direction: column;  
+  justify-content: center;  
+}  
+
+.info h1 {  
+  font-size: 2.5em;  
+  margin: 0;  
+  font-family: 'Arial', sans-serif;  
+  font-weight: bold;  
+}  
+
+.info h2 {  
+  font-size: 1.6em;  
+  margin-top: 5px;  
+  font-weight: normal;  
+  color: #e0e0e0;  
+}  
+
+.info p {  
+  margin: 5px 0;  
+  color: #d0d0d0;  
+}  
+
+.info a {  
+  color: #f9c74f;  
+  text-decoration: none;  
+  transition: color 0.3s;  
+}  
+
+.info a:hover {  
+  color: #f3722c; 
+  text-decoration: underline;  
+  transform: scale(1.05);  
+  cursor: pointer;  
+}  
+
+.social-links {  
+  margin-top: 10px;  
+}  
+
+.social-links a {  
+  margin-right: 15px;  
+  font-weight: bold;  
+}
+ 
+
+h2 {
+  font-size: 24px;
+  color: #4a90e2;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+p,
+ul {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  color: #151313;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+.skills {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #4a90e2;
+}
+.skills li::marker {
+  color: #4a90e2;
+  font-size: 18px; 
+}
+
+.education {
+  background: #f9f9f9; 
+  padding: 15px; 
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  border-left: 5px solid #4a90e2; 
+  margin-bottom: 20px; 
+}
+
+.education div {
+  margin-bottom: 20px; 
+  padding: 15px;
+  background: #f9f9f9; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.education ul {
+  list-style-type: disc; 
+  margin-left: 20px; 
+  padding-left: 20px;
+}
+
+.education li {
+  margin-bottom: 10px; 
+  font-size: 16px; 
+  color: #151313;
+}
+
+.education li::marker {
+  color: #4a90e2; 
+  font-size: 18px; 
+}
+
+.experience {
+  background: #f9f9f9; 
+  padding: 15px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  border-left: 5px solid #4a90e2; 
+  margin-bottom: 20px; 
+}
+
+.experience div {
+  margin-bottom: 20px; 
+  padding: 15px; 
+  background: #f9f9f9; 
+  border-radius: 8px; 
+
+}
+
+.experience h3 {
+  margin: 0 0 5px 0; 
+  font-size: 18px;
+  color: #4a90e2; 
+}
+
+.experience p {
+  margin: 5px 0 0 0;
+  color: #151313; 
+  font-size: 16px; 
+  line-height: 1.6; 
+}
+
+button {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 50px; /* Rounded corners */
+  font-size: 1.0em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  outline: none;
+}
+
+button:hover {
+  transform: scale(1.0);
+  background: linear-gradient(135deg, #0056b3, #0099cc);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: scale(0.98);
+  background: linear-gradient(135deg, #003366, #007bb5);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.objective {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #4a90e2;
+}
+
+.objective h2 {  
+  font-size: 24px;  
+  color: #4a90e2;   
+  margin-bottom: 10px;   
+  border-bottom: 2px solid #e0e0e0;   
+  padding-bottom: 5px;  
+}  
+
+ 
+
